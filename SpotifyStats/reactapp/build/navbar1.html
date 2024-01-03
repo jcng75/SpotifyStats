@@ -8,17 +8,8 @@
   <div class="flex-none">
     <ul class="menu menu-horizontal text-lime-300">
       <li><a href="{% url 'about' %}">About</a></li>
-      <li>
-        <details>
-          <summary>
-            Profile
-          </summary>
-          <ul class="bg-base-200 rounded-t-none absolute z-20">
-            <li><a href="{% url 'login' %}">Login</a></li>
-            <li><a href="{% url 'register' %}">Register</a></li>
-          </ul>
-        </details>
-      </li>
+      <li><a href="{% url 'login' %}">Login</a></li>
+      <li><a href="{% url 'register' %}">Create an Account</a></li>
     </ul>
   </div>
 </div>
