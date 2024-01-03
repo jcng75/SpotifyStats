@@ -9,3 +9,6 @@ def signin(request):
 
 def register(request):
     return render(request, 'register.html')
+
+def testNav(request):
+    return render(request, 'navbar1.html')
